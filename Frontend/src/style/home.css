@@ -1,0 +1,192 @@
+#bgimg{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+
+}
+#bgImg img{
+    width: 100%;
+   
+}
+#homenav{
+    position:absolute;
+    top: 1em;
+    left: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border: 0px solid white;
+}
+#navLogo img{
+    width: 50%;
+}
+#loginSignupBtn{
+    
+    margin: auto;
+    color: #ffc104;
+    background-color: #0e74be;
+    border-radius: 10px;
+}
+#loginSignupBtn img{
+    width: 80%;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+#homeTxt{
+    border: 0px solid white;
+    width: 90%;
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    top: 5em;
+    left: 1em;
+    text-align: center;
+    font-weight: bold;
+    font-family: Inter, sans-serif;
+}
+.App{
+    background-image: url('https://res.cloudinary.com/dx78kzenz/image/upload/v1703852437/y-bg_1_nhplad.jpg');
+
+}
+#homeBody{
+    width: 100%;
+    display: flex;
+    bottom: 0%;
+    justify-content: space-around;
+
+}
+.headingTurfz{
+   filter: drop-shadow(0px 0px 10px white);
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 20px;
+   padding:0px ,20px,20px,20px;
+   color: #0e74be;
+    
+}
+#ballImg{
+    width: auto;
+    border: 0px solid black;
+   filter: drop-shadow(10px 10px 10px black);
+
+}
+#ballImg img{
+    width: 60%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#ballingText{
+    border: 0px solid black;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#bodyheading{
+    font-size: 32px;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+}
+#bodyHeading2{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    width: 80%;
+}
+#loginBtn{
+    width: 25%;
+    height: 55px;
+    border: none;
+    color: white;
+    background-color: #183D3D;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#loginBtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#footer{
+    /* background: linear-gradient(to left, #0e74be, #D39D38);  */
+    background-color: #054775;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border-top: 2px solid black; */
+}
+#footerText{
+    border: 0px solid white;
+    color: white;
+    font-size: 30px;
+    width: 65%;
+    text-align:center;
+    font-weight: bolder;
+}
+#icons{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid white;
+    width: 100%;
+}
+#iconsContainer{
+    border: 0px solid white;
+    width: 10%;
+}
+.homeHeading{
+    background: -webkit-linear-gradient(#fdc300, #9a141b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#bookingContainer{
+max-height: max-content;
+height: 100vh;
+}
+
+#bookingContainers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.bookingCard{
+    background: linear-gradient(to bottom, #403b4a, #e7e9bb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#bookingsDetails {
+   font-size: xx-large;
+   padding: 0%;
+   margin: 0%;
+   font-weight: bold;
+   width: 400px;
+   margin-left: 38%;
+   margin-right: 38%;
+   height: auto;
+   border-radius: 10px;
+   background: linear-gradient(to right, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   color: white;  
+}
+
+@media (max-width: 767px) {
+    #bookingsDetails {
+       margin-left: 0;
+       margin-right: 0;
+       width: 100%; /* Make it full-width on smaller screens */
+    }
+ }
+#bookingImageBox{
+    left: 0%;
+    background: linear-gradient(to right, #000000, #434343);
+}
+.cardHeader{
+    text-transform: uppercase;
+    max-width: 100%;
+}

@@ -1,0 +1,168 @@
+#turfnavbg{
+    width: 100%;
+    position: relative;
+}
+#turfnavbg img{
+    width: 100%;
+}
+
+.playball{
+    background: -webkit-linear-gradient(#fdc300, #9a141b);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#navBtns{
+    border: 0px solid black;
+    float: right;
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+    right:15px;
+
+    
+}
+#topNavturf{
+    display: flex;
+  
+
+}
+
+/* #botNavTurf{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+} */
+#botNavText{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform:uppercase;
+    border:0px solid black;
+    display: flex;
+    width: 27%;
+    justify-content:space-between;
+    align-items: center;
+}
+#midNavTurf{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+#turfCity{
+    color: Green;
+    display: flex;
+    align-items: center;
+}
+#mapContainer{
+    border: 1px solid black;
+}
+#mainContainer{
+    background: linear-gradient(4deg, rgba(5,71,117,1) 13%, rgba(255,193,4,1) 100%);
+
+}
+
+#turfContainer1{
+    width: 100%;
+}
+    #turfContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+#turfBox{
+    border: 0px solid white;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+#listingImg{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+/* @media screen and (max-width: 600px) {
+    #listingImg img {
+        height: auto; 
+        width:90%;
+        object-fit: cover;
+    }
+} */
+
+#listingImg img{
+    height: 300px;
+    object-fit: cover;
+}
+#turfName{
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding:0px ,20px,20px,20px;
+    color: white;
+    
+}
+#headingTurf{
+    text-transform: uppercase;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #3D0C11;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#timeButtons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    color: rgb(0, 0, 0);
+    
+}
+.alertMsg{
+    border: 0px solid black;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+.alertErr{
+    border: 0px solid black;
+   
+    margin: auto;
+    margin-bottom: 20px;
+    display: none;
+}
+.errmsg{
+    border: 0px solid black;
+    display: block;
+  
+    margin: auto;
+    margin-bottom:20px;
+}
+.errFalse{
+    border: 0px solid black;
+    display: none;
+   
+    margin: auto;
+    margin-bottom:20px;
+}
+.headerModal{
+    background-color: black;
+    color:white;
+}
+.closebtn{
+    color: white;
+}
+.footballNav{
+    width: 300px;
+    height: fit-content;
+}
+
+.cricketNav{
+    width: 400px;
+    margin-bottom: 0%;
+    height: fit-content;
+}
