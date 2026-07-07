@@ -3,3 +3,8 @@ out
 .DS_Store
 *.log
 .env
+
+# Raw source media — keep large trip clips/music out of git.
+public/clips/*
+!public/clips/README.md
+public/music.*
