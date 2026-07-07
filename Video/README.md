@@ -42,6 +42,22 @@ npx remotion render TurfPromo out/turf-promo.mp4 \
   --browser-executable=/path/to/chrome-headless-shell
 ```
 
+## Montage composition (`Montage`)
+
+A reusable montage builder for stitching your own video clips together with
+crossfade transitions, optional captions, an intro title card, and background
+music. Ideal for trip recaps.
+
+1. Drop clips into `public/clips/` (MP4/MOV/WebM).
+2. List them in `src/Montage/clips.ts` — set `durationInSeconds`, optional
+   `startFromSeconds` (trim), `playbackRate` (speed), and `caption` per clip.
+   Adjust `TITLE`, `MUSIC`, and `TRANSITION_DURATION` there too.
+3. Preview: `npm run dev` → pick **Montage**. Render: `npm run montage`
+   (→ `out/montage.mp4`).
+
+The composition length is computed automatically from your clip list, so you
+never set a total duration by hand.
+
 ## Structure
 
 ```
